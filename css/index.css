@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: #fdfdfd;
+    color: #1a1a1a;
+    
+  }
+
+  
+  .section {
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #ddd;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  
+  
+  .section h2 {
+    border-left: 5px solid #88b698;
+    padding-left: 0.5rem;
+    text-align: left;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding-left: 1.2rem;
+  }
+  
+  .section ul li::before {
+    content: \"●\";
+    margin-right: 0.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-info {
+    margin-top: 0.5rem;
+  }
+  
+  .contact-info p {
+    margin: 0.2rem 0;
+  }
+  .horizontal-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    text-align: left;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .horizontal-header img {
+    border-radius: 5px;
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .horizontal-header .info h1 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .horizontal-header .info p {
+    margin: 0.2rem 0;
+
+  }
+  
+  .horizontal-header a {
+  
+    text-decoration: none;
+  }
+  .horizontal-header a:hover {
+    text-decoration: underline;
+  }
+  

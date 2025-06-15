@@ -4,73 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soobin Cho | Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #ffffff;
-      color: #000000;
-    }
-    header {
-      background-color: #0f0f0f;
-      color: #00cc66;
-      padding: 2rem;
-      display: flex;
-      align-items: center;
-    }
-    header img {
-      border-radius: 50%;
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      margin-right: 2rem;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    .section {
-      padding: 2rem;
-      border-bottom: 1px solid #ddd;
-    }
-    .section h2 {
-      color: #00cc66;
-      border-left: 5px solid #00cc66;
-      padding-left: 0.5rem;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    a {
-      color: #00cc66;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .contact-info {
-      margin-top: 1rem;
-    }
-  </style>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <header>
-    <img src="your-photo.jpg" alt="Soobin Cho's profile photo">
-    <div>
+  <header class="horizontal-header">
+    <img src="img/camera.jpeg" alt="Soobin Cho's profile photo">
+    <div class="info">
       <h1>Soobin Cho</h1>
-      <p>Undergraduate Student, Sungshin Women's University</p>
-      <div class="contact-info">
-        <p>Email: <a href="mailto:20231163@sungshin.ac.kr">20231163@sungshin.ac.kr</a></p>
-        <p>GitHub: <a href="https://github.com/s0obang" target="_blank">github.com/s0obang</a></p>
-      </div>
+      <h1>조수빈</h1>
+      <p>Sungshin Women's University<br>Undergraduate Student</p>
+      <p>Email: <a href="mailto:20231163@sungshin.ac.kr">20231163@sungshin.ac.kr</a></p>
+      <p>GitHub: <a href="https://github.com/s0obang" target="_blank">github.com/s0obang</a></p>
     </div>
   </header>
-
   <section class="section">
-    <h2>About Me</h2>
-    <p>I am a junior majoring in Computer Science and Artificial Intelligence, with a focus on backend development, vector databases, and Retrieval-Augmented Generation (RAG).</p>
+    <h2>Academic Advisor</h2>
+    <ul>
+      <li><a href="https://sites.google.com/view/nslab-sswu/professor?authuser=0">Prof. Gyuyeong Kim</a></li>
+    </ul>
   </section>
-
   <section class="section">
     <h2>Research</h2>
     <ul>
@@ -79,14 +31,6 @@
     </ul>
   </section>
 
-  <section class="section">
-    <h2>Projects & Awards</h2>
-    <ul>
-      <li><strong>1st Prize</strong> - LIKELION Hackathon: Health tracking and hospital recommendation app</li>
-      <li><strong>Cling</strong> - <a href="https://github.com/s0obang/C-ling" target="_blank">GitHub</a>: student ID-based matching & chat system (Silver Prize)</li>
-      <li><strong>Çambus</strong>: Group-buy app with payment templates (Bronze Prize)</li>
-    </ul>
-  </section>
 
   <section class="section">
     <h2>Club Activities</h2>
@@ -99,14 +43,29 @@
 
   <section class="section">
     <h2>Technical Skills</h2>
-    <p><strong>Advanced:</strong> C, C++, Java, Spring Boot, Django, Node.js, Linux system programming</p>
-    <p><strong>Intermediate:</strong> Python, MySQL</p>
+    <div class="skill-container">
+      <div class="skill-level">
+        <p><strong>Advanced</strong></p>
+        <ul>
+          <li>C, C++, Java, Spring Boot, Django, Node.js, Linux system programming</li>
+        </ul>
+      </div>
+      <div class="skill-level">
+        <p><strong>Intermediate</strong></p>
+        <ul>
+          <li>Python, MySQL</li>
+        </ul>
+      </div>
+    </div>
   </section>
-
+  
   <section class="section">
     <h2>Languages</h2>
-    <p>Korean: Native</p>
-    <p>English: Intermediate</p>
+    <div class="language-container">
+      <div class="language-item"><strong>Korean:</strong> Native</div>
+      <div class="language-item"><strong>English:</strong> Intermediate</div>
+    </div>
   </section>
+  
 </body>
 </html>
