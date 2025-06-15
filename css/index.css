@@ -22,11 +22,7 @@ body {
     text-align: left;
   }
   
-  .section ul {
-    list-style: none;
-    padding-left: 1.2rem;
-  }
-  
+
   .section ul li::before {
     content: \"●\";
     margin-right: 0.5rem;
@@ -64,7 +60,7 @@ body {
   
   .horizontal-header img {
     border-radius: 5px;
-    width: 180px;
+    width: 230px;
     height: auto;
     object-fit: cover;
   }
